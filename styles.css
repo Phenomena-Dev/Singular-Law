@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: FordAntenna;
+    src: url(/FordAntenna_Font/FordAntenna_Font/ford-antenna-regular-xcnd-589558121012a.otf);
+}
+
+@font-face {
+    font-family: FordAntenna;
+    src: url(/FordAntenna_Font/FordAntenna_Font/ford-antenna-medium-58955836e60d2.otf);
+    font-weight: bold;
+}
+
+
+body{
+     background-color: black;
+     color: #FCF8FB;
+     font-family: FordAntenna;
+}
+
+h1 {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.6vw;
+}
+
+h3 {
+    font-size: 2.0vw;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.4vw;
+}
+
+h5 {
+    font-size: 1.2vw;
+}
+
+.main{
+    padding-top: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna{
+    flex-basis: 47%;
+}
+
+.grande{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+}
+
+.chico{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+
+.derecha{
+    background-color: #FCF8FB;
+    color: black;
+    padding-bottom: 6%;
+}
+
+.titulo_form{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+.llenar{
+    background-color: #D080BC;
+    opacity: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+.boton{
+    text-align: center;
+    background-color: #AC3F90;
+    color:#FCF8FB ;
+    margin-top: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.boton:hover{
+    opacity: 65%;
+    transition: 1s;
+
+}
+
+@media only screen and (max-width:720px){
+    .main{
+        display: grid;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+}
